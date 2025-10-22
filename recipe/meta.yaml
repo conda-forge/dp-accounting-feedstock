@@ -1,5 +1,5 @@
 {% set name = "dp-accounting" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9938c4c2985ebb7aa480a637ea18f605286f0b698645e6d6895e9bb05b7c1d00
+  sha256: 0bd8c92a2d0f3f250106167fe8656b42d68707a363c75a708d383a52ad9ef5d6
 
 build:
   noarch: python
