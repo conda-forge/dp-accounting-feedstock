@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - absl-py >=1.0,<2.dev0
+    - absl-py >=1.0,<3
     - attrs >=22,<24
     - dm-tree >=0.1.8,<0.2.dev0
     - mpmath >=1.2,<2.dev0
