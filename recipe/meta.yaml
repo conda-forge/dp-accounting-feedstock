@@ -1,13 +1,13 @@
 {% set name = "dp-accounting" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 87820afdec3baa83c57abaad91163628de6abf74f292e56330b5a081d57c69e1
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 8e96cb81fd17862dc2e066a18a7e3469bfe467c7806cddbba90703bcaa68c14b
 
 build:
   noarch: python
